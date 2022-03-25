@@ -6,7 +6,9 @@ https://www.kaggle.com/omarhanyy/wuzzuf-jobs
 
 Task:
 •	Build all java needed classes (POJO , DAO, web service and a tester client for the web service)
+
 •	Make a web service to get the following from the data set:
+
 1.	Read the dataset, convert it to DataFrame or Spark Dataset, and display some from it.
 2.	Display structure and summary of the data.
 3.	Clean the data (null, duplications)
