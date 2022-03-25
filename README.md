@@ -4,7 +4,6 @@ https://www.kaggle.com/omarhanyy/wuzzuf-jobs
 
 #* Project description *
 
-Task:
 •	Build all java needed classes (POJO , DAO, web service and a tester client for the web service)
 
 •	Make a web service to get the following from the data set:
