@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title >WUZZUF APP</title>
+        <style>
+            body{
+                font-family:"Lucida Console";
+                margin: 0;
+                padding: 0;
+                background-image:url("OIP.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .head{
+                margin:auto;
+                text-align: center;
+                width:100%;
+                font-weight:bold;
+                font-size:2em;
+                color: #202245;
+            }
+
+ .button{
+                column-gap: 15px;
+                margin:10px auto;
+                width:50%;
+                height:180px;
+                padding:0px;
+                text-align:center;
+            }
+            .button_style{
+                height:60px;
+                width:180px;
+                margin:5px;
+                padding: 10px;
+                background-color: #485976;
+                color:aliceblue;
+                border:none;
+                border-radius:8px;
+                font-weight:bold;
+                cursor:pointer;
+                transition: 0.2s all;
+
+            }
+            .button_style:hover {
+                transform:translateY(-5px);
+                 }
+        </style>
+	</head>
+	
+	<body>
+            <div class="head"><h1>WUZZUF APPLICATION</h1></div>
+            <div class="button">
+                <button class="button_style" onclick="location.href='http://localhost:9090/show_first_records'">data</button>
+                <button class="button_style" onclick="location.href='http://localhost:9090/show_structure'">Structure</button>
+                <button class="button_style" onclick="location.href='http://localhost:9090/show_summary'" >Summary</button>
+                <button class="button_style" onclick="location.href='http://localhost:9090/show_top_companies'">Top Companies</button>
+                <button class="button_style" onclick="location.href='http://localhost:9090/show_top_titles'">Top Titles</button>
+                <button class="button_style" onclick="location.href='http://localhost:9090/show_top_areas'">Top Areas</button>
+                <button class="button_style" onclick="location.href='http://localhost:9090/show_pie_chart'">Company Chart</button>
+                <button class="button_style" onclick="location.href='http://localhost:9090/title_bar_chart'">Title Chart</button>
+                <button class="button_style" onclick="location.href='http://localhost:9090/location_bar_chart'">Location chart</button>
+                <button class="button_style" onclick="location.href='http://localhost:9090/show_top_skills'">Top Skills</button>
+                <button class="button_style" onclick="location.href='http://localhost:9090/show_YearsExp'">Factorization</button>
+            </div>
+	</body>
+
+</html>
