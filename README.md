@@ -22,4 +22,5 @@ https://www.kaggle.com/omarhanyy/wuzzuf-jobs
 12.	Apply K-means for job title and companies (Bonus) --> our project doesn't include this point.
 
 **path of spring webService** 
+
 http://localhost:9090
