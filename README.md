@@ -1,8 +1,8 @@
-#Wuzzuf-Java Project
+**Wuzzuf-Java Project**
 
 https://www.kaggle.com/omarhanyy/wuzzuf-jobs
 
-#* Project description *
+**Project description**
 
 •	Build all java needed classes (POJO , DAO, web service and a tester client for the web service)
 
